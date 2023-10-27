@@ -1,3 +1,4 @@
+/* * hero-section Styles */
 .hero-section, .hero-banner {
   display: flex;
   position: relative;
@@ -32,9 +33,6 @@
 .text-box p {
   font-size: 15px;
   margin: 10px 0px 30px;
-}
-#tertiary-text {
-  color: rgb(237, 28, 36);
 }
 
 .hero-button {
@@ -91,3 +89,5 @@
     font-size: 11px;
   }
 }
+
+/* * more-information-section Styles */

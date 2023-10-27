@@ -19,30 +19,34 @@
   
   <body>
     <!-- Sticky Navigation Menu used in all pages. -->
-    <header class="header">
-      <a href="index.html">
-        <img class="mmcl-logo-horizontal" src="images/mmcl-logo-horizontal.webp" alt="MMCL Logo Horizontal">
-      </a>
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about-us.html">About Us</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact-us.html">Contact Us</a>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img class="mmcl-logo-horizontal" src="images/mmcl-logo-horizontal.webp" alt="MMCL Logo Horizontal">
+        </a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#hero-section" class="active">Home</a></li>
+            <li><a href="about-us.html" >About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>       
+        </div>
       </nav>
     </header>
 
     <!-- Banner section of the home page. -->
-    <section class="hero-section">
+    <section class="hero-section" id="hero-section">
       <div class="hero-banner">
         <div class="gradient"></div>
         <img class="education-technology-banner" src="images/banner.webp" alt="Educational Technology Banner">
       </div>
       <div class="text-box">
-        <h1>Educational Technology</h1>
+        <h1>Educational Technologies</h1>
         <p>
           Learn more about the educational technologies used in delivering <br />
           high-quality education for students in
-          <span id="tertiary-text">Mapúa Malayan Colleges Laguna.</span>
+          <span id="tertiary-span">Mapúa Malayan Colleges Laguna.</span>
         </p>
         <a href="#" class="hero-button">
           Learn More

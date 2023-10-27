@@ -1,13 +1,5 @@
 /* Sticky styles */
-.header {
-  background-color: rgba(251, 251, 253, 0.8);
-  padding: 0.5rem 1.5rem;
-  backdrop-filter: saturate(180%) blur(20px);
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+header {
   position: sticky;
   top: 0;
   left: 0;
@@ -15,16 +7,51 @@
   z-index: 100;
 }
 
-.header img {
+nav {
+  background-color: rgba(251, 251, 253, 0.8);
+  padding: 0.5rem 1.5rem;
+  backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
   height: 2.3rem;
 }
 
-.navbar a {
-  font-size: 1.0rem;
-  font-weight: 400;
-  color: rgb(29, 29, 31);
-  text-decoration: none;
-
-  margin-left: 2.0rem;
+.nav-links {
+  flex: 1;
+  text-align: right;
 }
-
+.nav-links ul li {
+  padding-left: 1.8rem;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.nav-links ul li a {
+  color: rgb(0, 32, 78);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-links ul li a.active {
+  color: rgb(237, 28, 36);
+}
+.nav-links ul li::after {
+  content: '';
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  background: rgb(237, 28, 36);
+  display: block;
+  transition: 0.3s ease;
+}
+.nav-links ul li:hover::after {
+  content: '';
+  margin: auto;
+  width: 100%;
+  height: 2px;
+  background: rgb(237, 28, 36);
+  display: block;
+}

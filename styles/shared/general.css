@@ -5,6 +5,15 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+
 body {
   font-family: Poppins, Arial;
+}
+
+#tertiary-span {
+  color: rgb(237, 28, 36);
 }
