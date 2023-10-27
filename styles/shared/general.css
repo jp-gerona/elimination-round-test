@@ -7,13 +7,22 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 10rem;
+  scroll-padding: 3.8rem;
 }
 
 body {
   font-family: Poppins, Arial;
 }
 
-#tertiary-span {
+#primary-color {
+  color: rgb(251, 251, 253)
+}
+#secondary-color {
+  color: rgb(0, 32, 78);
+}
+#tertiary-color {
   color: rgb(237, 28, 36);
+}
+#paragraph-color {
+  color: rgb(29, 29, 31);
 }
