@@ -3,18 +3,62 @@
 <html lang="en">
   <head>
     <title>Home</title>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Load Fonts here. -->
+    <!-- These are the fonts used for the website. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Load Stylesheets here. -->
+    <!-- These are the stylesheets used for the home/index page. -->
     <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/header.css">
     <link rel="stylesheet" href="styles/pages/index.css"> 
   </head>
   
   <body>
-    <p>Hello World!</p>
+    <!-- Sticky Navigation Menu used in all pages. -->
+    <header class="header">
+      <a href="index.html">
+        <img class="mmcl-logo-horizontal" src="images/mmcl-logo-horizontal.webp" alt="MMCL Logo Horizontal">
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- Banner section of the home page. -->
+    <section class="hero-section">
+      <img class="education-technology-banner" src="images/banner.webp" alt="Educational Technology Banner">
+      <div class="text-box">
+        <h1>Educational Technology</h1>
+        <p>
+          Learn more about the educational technologies used in delivering <br />
+          high-quality education for students in
+          <span id="tertiary-text">Mapúa Malayan Colleges Laguna.</span>
+        </p>
+        <a href="#" class="hero-button">
+          Learn More
+        </a>
+      </div>
+    </section>
+
+    <!-- More information section after Banner section. -->
+    <section>
+      <div>
+        Hello
+      </div>
+    </section>
+
+    <!-- Footer section. -->
+    <section>
+      <div>
+        Footer
+      </div>
+    </section>
   </body>
 </html>

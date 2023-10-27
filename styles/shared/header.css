@@ -1,0 +1,30 @@
+/* Sticky styles */
+.header {
+  background-color: rgba(251, 251, 253, 0.8);
+  padding: 0.5rem 1.5rem;
+  backdrop-filter: saturate(180%) blur(20px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header img {
+  height: 2.3rem;
+}
+
+.navbar a {
+  font-size: 1.0rem;
+  font-weight: 400;
+  color: rgb(29, 29, 31);
+  text-decoration: none;
+
+  margin-left: 2.0rem;
+}
+
