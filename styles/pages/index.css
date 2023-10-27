@@ -1,8 +1,19 @@
-.hero-section {
+.hero-section, .hero-banner {
+  display: flex;
   position: relative;
 }
 .education-technology-banner {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+}
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 4, 17);
+  opacity: 0.7;
+
+  position: absolute;
 }
 
 .text-box {
