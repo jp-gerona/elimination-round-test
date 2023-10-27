@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- These are the fonts used for the website. -->
+    <!-- These are the fonts used for the website. Else, will use available sans-serif font in the user's system..-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -14,7 +14,11 @@
     <!-- These are the stylesheets used for the home/index page. -->
     <link rel="stylesheet" href="styles/shared/general.css">
     <link rel="stylesheet" href="styles/shared/header.css">
+    <link rel="stylesheet" href="styles/shared/footer.css">
     <link rel="stylesheet" href="styles/pages/index.css"> 
+
+    <!-- SVG Icons used for the website-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   
   <body>
@@ -35,7 +39,7 @@
       </nav>
     </header>
 
-    <!-- Banner section of the home page. -->
+    <!-- First section the user will see. This is the hero-page-section. -->
     <section class="hero-section" id="hero-section">
       <div class="hero-banner">
         <div class="gradient"></div>
@@ -52,13 +56,14 @@
       </div>
     </section>
 
-    <!-- More information section after Banner section. -->
+    <!-- Displays more information around the school's edtech and mode of learning. -->
     <section class="learn-more-section" id="learn-more-section">
       <h1 id="secondary-color">Introducing</h1>
       <img class="mmcl-flux-logo" src="images/mmcl-flux-logo.png" alt="MMCL Flux Logo">
       <p>
         Mapúa MCL Flexible Learning Ubiquitous Experience or “Mapúa MCL FLUX” integrates traditional classroom instruction with online learning, providing students with the flexibility to choose how they engage with each class and learning activity. 
       </p>
+    <!-- Responsive cards that highlight the 3 modes of learning using MCL's FLUX.-->
       <div class="learning-mode-row" id="primary-color">
         <div class="learning-mode-column">
           <h3 id="tertiary-color">Face-to-Face</h3>
@@ -85,9 +90,14 @@
     </section>
 
     <!-- Footer section. -->
-    <section>
-      <div>
-        Footer
+    <section class="footer-section">
+      <img src="images/mmcl-logo-footer.png" alt="MMCL Logo Footer">
+      <div class="socials">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
       </div>
     </section>
   </body>
