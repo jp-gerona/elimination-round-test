@@ -51,6 +51,7 @@ textarea {
   outline: none;
   padding: 10px;
   box-sizing: border-box;
+  resize: none;
 }
 label {
   margin-bottom: 6px;
